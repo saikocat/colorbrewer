@@ -36,5 +36,5 @@
         "colorbrewer.js",
         "index.js"
     ],
-    "main": "index.js"
+    "main": "colorbrewer.js"
 }
