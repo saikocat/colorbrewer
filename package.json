@@ -33,7 +33,8 @@
     "style": "colorbrewer.css",
     "files": [
         "colorbrewer.css",
-        "colorbrewer.js"
+        "colorbrewer.js",
+        "index.js"
     ],
     "main": "index.js"
 }
