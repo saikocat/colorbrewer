@@ -1,6 +1,6 @@
 {
     "name": "colorbrewer",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "description": "A shim module of colorbrewer2 by Cythina Brewer for browserify",
     "keywords": [
         "colors",
@@ -27,8 +27,8 @@
         "url": "https://github.com/saikocat/colorbrewer"
     },
     "bugs": {
-        "url" : "https://github.com/saikocat/colorbrewer/issues",
-        "email" : "saikocatz@gmail.com"
+        "url": "https://github.com/saikocat/colorbrewer/issues",
+        "email": "saikocatz@gmail.com"
     },
     "style": "colorbrewer.css",
     "files": [
