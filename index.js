@@ -2,7 +2,12 @@
 // JavaScript specs as packaged in the D3 library (d3js.org). Please see license at http://colorbrewer.org/export/LICENSE.txt
 !function() {
 
-var colorbrewer = {YlGn: {
+var colorbrewer = {schemeGroups: {
+sequential: ["BuGn","BuPu","GnBu","OrRd","PuBu","PuBuGn","PuRd","RdPu","YlGn","YlGnBu","YlOrBr","YlOrRd"],
+singlehue:["Blues","Greens","Greys","Oranges","Purples","Reds"],
+diverging: ["BrBG","PiYG","PRGn","PuOr","RdBu","RdGy","RdYlBu","RdYlGn","Spectral"],
+qualitative: ["Accent","Dark2","Paired","Pastel1","Pastel2","Set1","Set2","Set3"]
+}, YlGn: {
 3: ["#f7fcb9","#addd8e","#31a354"],
 4: ["#ffffcc","#c2e699","#78c679","#238443"],
 5: ["#ffffcc","#c2e699","#78c679","#31a354","#006837"],
