@@ -1,6 +1,6 @@
 {
     "name": "colorbrewer",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "description": "A shim module of colorbrewer2 by Cythina Brewer for browserify",
     "keywords": [
         "colors",
