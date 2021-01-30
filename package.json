@@ -35,5 +35,11 @@
         "colorbrewer.css",
         "index.js"
     ],
-    "main": "index.js"
+    "scripts": {
+        "prepack": "tsc"
+    },
+    "main": "index.js",
+    "devDependencies": {
+        "typescript": "^4.1.3"
+    }
 }
