@@ -18,3 +18,7 @@ console.log(colorbrewer.schemeGroups.sequential);
 console.log(colorbrewer.Blues[5]);
 // ["#eff3ff","#bdd7e7","#6baed6","#3182bd","#08519c"]
 ```
+
+## Huge thanks to:
+* Connor Peet - [connor4312](https://github.com/connor4312) - for adding
+  TypeScript support since version `1.4.0`
