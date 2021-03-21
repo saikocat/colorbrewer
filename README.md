@@ -19,6 +19,11 @@ console.log(colorbrewer.Blues[5]);
 // ["#eff3ff","#bdd7e7","#6baed6","#3182bd","#08519c"]
 ```
 
+## Notes:
+* There is a compatibility issue with `1.4.0` so do lock your version to `1.3.0` for now
+* `1.5.0` is using rollup to generate both UMD and ES module so hopefully this will resolve the problems for most of us.
+
+
 ## Huge thanks to:
 * Connor Peet - [connor4312](https://github.com/connor4312) - for adding
   TypeScript support since version `1.4.0`
