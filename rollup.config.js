@@ -10,6 +10,11 @@ export default {
             format: 'umd',
             file: 'index.js',
             name: 'colorbewer'
+        },
+        {
+            format: 'es',
+            file: 'index.es.js',
+            name: 'colorbewer'
         }
     ],
     plugins: [

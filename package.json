@@ -33,12 +33,14 @@
     "style": "colorbrewer.css",
     "files": [
         "colorbrewer.css",
-        "index.js"
+        "index.js",
+        "index.es.js"
     ],
     "scripts": {
         "build": "rollup -c"
     },
     "main": "index.js",
+    "module": "index.es.js",
     "devDependencies": {
         "@rollup/plugin-commonjs": "^17.1.0",
         "@rollup/plugin-node-resolve": "^11.2.0",
