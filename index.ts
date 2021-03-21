@@ -1,4 +1,4 @@
-export = {
+export default {
   schemeGroups: {
     sequential: ["BuGn", "BuPu", "GnBu", "OrRd", "PuBu", "PuBuGn", "PuRd", "RdPu", "YlGn", "YlGnBu", "YlOrBr", "YlOrRd"],
     singlehue: ["Blues", "Greens", "Greys", "Oranges", "Purples", "Reds"],

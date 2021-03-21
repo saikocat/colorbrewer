@@ -1,7 +1,0 @@
-{
-  "compilerOptions": {
-    "module": "UMD",
-    "declaration": true
-  },
-  "files": ["index.ts"]
-}
