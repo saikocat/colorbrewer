@@ -3,27 +3,37 @@ import typescript from '@rollup/plugin-typescript';
 import commonjs from '@rollup/plugin-commonjs';
 import resolve from '@rollup/plugin-node-resolve';
 
-export default {
-    input: 'index.ts',
-    output: [
-        {
+export default [
+    // cjs & umd
+    {
+        input: 'index.ts',
+        output: {
             format: 'umd',
-            file: 'index.js',
+            dir: './',
             name: 'colorbewer'
         },
-        {
+        plugins: [
+            typescript({
+                declaration: true,
+                declarationDir: './types',
+                rootDir: './'
+            }),
+            commonjs(),
+            resolve()
+        ]
+    },
+
+    // es
+    {
+        input: 'index.ts',
+        output: {
             format: 'es',
             file: 'index.es.js',
             name: 'colorbewer'
-        }
-    ],
-    plugins: [
-        typescript({
-            declaration: true,
-            rootDir: './',
-            outDir: './build'
-        }),
-        commonjs(),
-        resolve()
-    ]
-}
+        },
+        plugins: [
+            typescript(),
+            resolve()
+        ]
+    }
+]
