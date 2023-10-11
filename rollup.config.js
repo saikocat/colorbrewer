@@ -10,7 +10,7 @@ export default [
         output: {
             format: 'umd',
             dir: './',
-            name: 'colorbewer'
+            name: 'colorbrewer'
         },
         plugins: [
             typescript({
@@ -29,7 +29,7 @@ export default [
         output: {
             format: 'es',
             file: 'index.es.js',
-            name: 'colorbewer'
+            name: 'colorbrewer'
         },
         plugins: [
             typescript(),
