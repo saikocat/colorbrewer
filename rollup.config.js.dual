@@ -10,12 +10,12 @@ export default [
         output: {
             format: 'umd',
             dir: './',
-            name: 'colorbrewer'
+            name: 'colorbewer'
         },
         plugins: [
             typescript({
                 declaration: true,
-                declarationDir: './types',
+                declarationDir: './types/',
                 rootDir: './'
             }),
             commonjs(),
@@ -29,7 +29,7 @@ export default [
         output: {
             format: 'es',
             file: 'index.es.js',
-            name: 'colorbrewer'
+            name: 'colorbewer'
         },
         plugins: [
             typescript(),
