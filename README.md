@@ -20,10 +20,12 @@ console.log(colorbrewer.Blues[5]);
 ```
 
 ## Notes:
-* There is a compatibility issue with `1.4.0` so do lock your version to `1.3.0` for now
+* `1.6.0` is a major update that enable TypeScript to work correctly, and modernize the rollup build process.
 * `1.5.0` is using rollup to generate both UMD and ES module so hopefully this will resolve the problems for most of us.
+* There is a compatibility issue with `1.4.0` so do lock your version to `1.3.0` for now
 
 
 ## Huge thanks to:
-* Connor Peet - [connor4312](https://github.com/connor4312) - for adding
-  TypeScript support since version `1.4.0`
+* Brian Moran - [moranbw](https://github.com/moranbw) - for TypeScript import and build process enhancement since version `1.6.0`
+* Connor Peet - [connor4312](https://github.com/connor4312) - for adding initial
+  support for TypeScript since version `1.4.0`
