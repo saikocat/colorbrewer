@@ -1,7 +1,5 @@
 // rollup.config.js
 import typescript from '@rollup/plugin-typescript';
-import commonjs from '@rollup/plugin-commonjs';
-import resolve from '@rollup/plugin-node-resolve';
 
 export default [
     // cjs & umd
@@ -18,8 +16,6 @@ export default [
                 declarationDir: './types/',
                 rootDir: './'
             }),
-            commonjs(),
-            resolve()
         ]
     },
 
@@ -33,7 +29,6 @@ export default [
         },
         plugins: [
             typescript(),
-            resolve()
         ]
     }
 ]
