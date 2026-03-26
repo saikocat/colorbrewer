@@ -20,6 +20,8 @@ console.log(colorbrewer.Blues[5]);
 ```
 
 ## Notes:
+
+* `1.7.0` is a major version that package runtime files only (reduce package size), and fix missing tslib.
 * `1.6.1` is a major update that enable TypeScript to work correctly, and modernize the rollup build process.
 * `1.5.0` is using rollup to generate both UMD and ES module so hopefully this will resolve the problems for most of us.
 
