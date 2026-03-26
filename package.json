@@ -33,6 +33,12 @@
     "main": "index.js",
     "module": "index.es.js",
     "types": "./types/index.d.ts",
+    "files": [
+        "index.js",
+        "index.es.js",
+        "colorbrewer.css",
+        "types/"
+    ],
     "devDependencies": {
         "@rollup/plugin-typescript": "^12.1.2",
         "rollup": "^4.40.0",
